@@ -1,0 +1,106 @@
+body {
+	width: 80%;
+	max-width: 1024px;
+	margin: 0 auto;
+    background-image: url(https://c1.staticflickr.com/4/3514/3908013145_d6718cdb03_b.jpg);
+	background-color: #000;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-size: 65%;
+}
+
+header,
+main,
+footer {
+	background-color: rgba(100, 100, 100, 0.9);
+	font-size: 1.6em;
+    opacity: 0.9;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+nav {
+  text-align: center;
+  font-size: 1.2em;
+}
+
+a {
+  color: #FF4500;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:visited {
+    text-decoration: #FFA07A;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+header {
+	padding: 1em;
+}
+
+header h1 {
+	text-align: center;
+}
+
+h1, h2, h3, h4 {
+	margin: 1em;
+    font-family: "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #191970;
+    font-style: bold;
+}
+
+section {
+	margin: 1em;
+}
+
+nav {
+}
+
+p {
+	padding: 1em;
+}
+
+.picofme {
+  padding: 0 1em 0 1em;
+  float: left;
+}
+
+footer {
+	text-align: center;
+	padding: 2em;
+}
+
+#contact {
+    text-align: center;
+    font-style: bold;
+    color: midnightblue;
+}
+
+@media screen and (max-width: 680px) {
+	nav {
+		margin: 1em 0;
+		display: block;
+		font-size: 1em;
+	}
+	body {
+		font-size: 50%;
+	}
+}
